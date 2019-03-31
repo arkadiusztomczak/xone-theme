@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url("../fonts/Inconsolata-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: Playfair Display;
+    src: url("../fonts/playfair-display.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu-Light.ttf");
+    font-weight: normal;
+}
+#page{
+    max-width: 1063px;
+    margin: 0 auto;
+}
+.site-title{
+    margin-top:0;
+}
+.site-branding{
+    float: left;
+    width: 33.333%;
+    font-family: "Inconsolata", Consolas, monospace;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.site-branding a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+.site-branding a:hover{
+    color: black;
+}
+.site-branding a:visited{
+    color: black;
+}
+#site-navigation{
+    float: left;
+    display: inline;
+    clear: inherit;
+    width: 66.666%;
+    margin-top: 15px;
+}
+#masthead{
+    margin-top:93.95px;
+    height: 48.37px;
+    display: block;
+}
+#masthead .menu{
+    right: 0;
+}
+#masthead .menu {
+    width: auto;
+    float: right;
+}
+#masthead .menu li, footer .menu li{
+    font-family: "Playfair Display", Consolas, monospace;
+}
+#masthead .menu li{
+    padding-right: 110px;
+}
+footer .menu li{
+    padding-right: 40px;
+    display: inline;
+}
+#masthead .menu li a, footer .menu li a{
+    font-size: 14px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+#masthead .menu li a{
+    text-transform: uppercase;
+    color: #626262;
+}
+footer .menu li a{
+    color: black;
+}
+footer .menu{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#masthead .menu li a:hover, footer .menu li a:hover{
+    color: black;
+}
+#masthead .menu li:last-child, footer .menu li:last-child{
+    padding-right: 0;
+}
+.headerImage {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+.artCategory, .artComment a, .artComment a:visited{
+    font-family: "Ubuntu", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+}
+.artTitle{
+    font-family: "Playfair Display", Arial, sans-serif;
+    color: #626262;
+    font-size: 30px;
+}
+.artContent, .artContent a, .artContent a:visited{
+    font-family: "Playfair Display", Arial, sans-serif;
+    color: #626262;
+    font-size: 14px;
+}
+.xoneArticleBox{
+    width: 100%;
+    display: block;
+}
+.xoneArticleBox img {
+    width: 100%;
+}
+a, a:visited{
+    color: black;
+}
+.xoneNewsletterForm .tnp-email{
+    width: 90% !important;
+    float: left !important;
+    display: inline !important;
+    background-color: transparent !important;
+    border: 0px !important;
+}
+.xoneNewsletterForm .tnp-submit{
+    display: inline !important;
+    float: left !important;
+    width: 10% !important;
+    background-color: transparent !important;
+    color: black !important;
+}
+.xoneNewsletterForm{
+    top: calc(50% - 72.5px);
+    position: relative;
+}
+
+.xoneNewsletterForm .newsletterInner{
+    max-width: 880px;
+    margin: 0 auto;
+}
+.xoneNewsletterForm .newsletterInner .tnp-subscription{
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+.xoneNewsletterHeading, .xoneNewsletterForm input[type=email]{
+    font-family: "Playfair Display" !important;
+}
+.xoneNewsletterHeading{
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.xoneNewsletterFormOuter{
+    //position: absolute !important;
+    width: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    height: 290px;
+    height: 290px;
+    display: block;
+}
+.xoneNewsletterForm .newsletterInner .tnp-submit{
+    background: url("../img/send.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: inherit !important;
+}
+.xoneInfinite {
+    max-width: 491.5px;
+    margin-bottom: 110px;
+}
+.xoneInfinite:nth-child(odd) {
+    margin-right: 30px;
+    float: left;
+    clear: left;
+}
+.xoneInfinite:nth-child(even) {
+    margin-left: 30px;
+    float: right;
+    clear: right;
+}
+.xoneFooter{
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100px;
+}
+.footerInner{
+    max-width: 1043px;
+    margin: 0 auto;
+    top: 40px;
+    position: relative;
+}
+.footerSocials{
+    font-family: "Playfair Display";
+    font-size: 14px;
+    color: black;
+    float: right;
+    display: inline;
+}
+.xoneSocials{
+    width: 15px;
+    height: 15px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 15px;
+}
+.xoneSocials.facebook{
+    background-image: url("../img/facebook.png");
+}
+.xoneSocials.instagram{
+    background-image: url("../img/instagram.png");
+}
+.xoneSocials.twitter{
+    background-image: url("../img/twitter.png");
+}
+.cat-links{
+    font-family: "Playfair Display";
+    font-size: 14px;
+}
+a, a:visited{
+    color: black !important;
+    text-decoration: none;
+}
+p, h1, h2, h3, a{
+    font-family: "Playfair Display";
+}
+.menu-toggle {
+    right: 5%;
+    float: right;
+    border: 0px;
+    background-color: transparent;
+    color: transparent;
+    background-image: url("../img/menu.png");
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 599px){
+    #primary-menu {
+        width: 100%;
+        position: absolute;
+        background-color: #b0b6ba;
+        padding: 20px;
+        color: white;
+        top: 200px;
+    }
+    #primary-menu li{
+        display: list-item !important;
+        width: 100%;
+        padding: 15px;
+    }
+    #primary-menu li a{
+        font-size: 24px !important;
+    }
+    .xoneInfinite:nth-child(odd), .xoneInfinite:nth-child(even), .elementor-column-wrap{
+        margin: 0 auto !important;
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 1062px){
+    .xoneInfinite:nth-child(odd), .xoneInfinite:nth-child(even){
+        margin: 0 auto !important;
+        width: 100%;
+        float: left;
+        max-width: inherit;
+    }
+}
